@@ -1,0 +1,17 @@
+---
+title: "Chul-Ho Woo"
+image: ./img/monkey.png
+about:
+  template: jolla
+  links:
+    - icon: bootstrap
+      href: https://wch2134.github.io/myblog_wch/
+    - icon: github
+      href: https://github.com/wch2134
+      aria-label: Chul-Ho Woo GitHubS
+---
+
+## About this website
+
+안녕하세요. 우철호입니다.
+

@@ -1,0 +1,105 @@
+project:
+  type: website
+
+website:
+  title: "Chul-Ho Woo"
+
+  navbar:
+    background: dark
+    logo: ./img/monkey.png
+    search: true   
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Study"
+        href: docs/study/index.qmd
+      - text: "Research Note"
+        href: docs/research-note/index.qmd
+      - text: "Presentation"
+        href: docs/presentation/index.qmd
+      - text: "More"
+        menu:
+          - text: Research Note
+            icon: "journal"
+            href: docs/research-note/index.qmd
+    right:
+      - icon: bootstrap
+        href: https://wch2134.github.io/myblog_wch/
+      - icon: github
+        href: https://github.com/wch2134
+        aria-label: Chul-Ho Woo GitHub
+
+  sidebar:
+    - id: research-note
+      title: "Research Note"
+      style: "floating"
+      background: light
+      contents:
+        - text: "Research Note"
+          href: docs/research-note/index.qmd
+        - section: "Evolution of Cooperation"
+          contents:
+            - section: "Direct Reciprocity"
+              contents:
+                - docs/research-note/evolution-of-cooperation/direct-reciprocity/DR-note1.qmd
+                - docs/research-note/evolution-of-cooperation/direct-reciprocity/DR-note2.qmd
+            - section: "Indirect Reciprocity"
+              contents:
+                - docs/research-note/evolution-of-cooperation/indirect-reciprocity/IDR-note1.qmd
+                - docs/research-note/evolution-of-cooperation/indirect-reciprocity/IDR-note2.qmd
+        - section: "Violence and Hierarchy"
+        - section: "Social Contract"
+
+    - id: study
+      collapse-level: 3
+      contents:
+        - text: "Study"
+          href: dodcs/study/index.qmd
+        - section: "Math"
+          contents:
+            - section: "Set Theory"
+              contents:
+                - text: "leture1"
+                  href: docs/study/math/set-theory/set_lecture1.qmd
+                - text: "lecture2"
+                  href: docs/study/math/set-theory/set_lecture2.qmd
+            - section: "Linear Algebra"
+              contents:
+                - text: "leture1"
+                  href: docs/study/math/linear-algebra/LA_lecture1.qmd
+                - text: "leture2"
+                  href: docs/study/math/linear-algebra/LA_lecture2.qmd
+            - section: "Probability"
+              contents:
+                - text: "probability"
+                  href: docs/study/math/probability/probability.qmd
+                - text: "probability process"
+                  href: docs/study/math/probability/probability-process.qmd 
+        - section: "Game Theory"
+          contents:
+            - section: "book 1"    
+              contents:
+                - text: "abc"
+                  href: docs/study/game-theory/book1/abc.qmd
+                - text: "def"
+                  href: docs/study/game-theory/book1/def.qmd
+            - section: "book 2"    
+              contents:
+                - text: "cont1"
+                  href: docs/study/game-theory/book2/book2-lecture1.qmd
+                - text: "cont2"
+                  href: docs/study/game-theory/book2/book2-lecture2.qmd
+         
+
+
+   
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
