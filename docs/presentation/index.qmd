@@ -2,12 +2,51 @@
 title: "Presentation"
 ---
 
+## 목차
+
+1. 선행 연구
+    - Axelrod의 Simulation
+    - nosie 환경에서 TFT, GTFT, Pavlov, CTFT 전략
+    - 관용의 크기와 착취 위험 사이의 상반관계(trade-off)  
+      뉘우침은 자신의 실수는 교정할 수 있지만, 타인의 실수는 용납하지 않는다.  
+    - 본 연구에서는 관용과 뉘우침을 결합한 착취회피 전략(aversion to exploitation; AE)을 제시하고자 한다.  
+    - AE 전략은 경기자들의 역사 집합에 근거해 과거 사건들의 가중합이 특정한 문턱보다 크다면 협력하는 조건부 전략이다.
 
 
-## presentation
+    - ALLD - TFT - GTFT - CTFT
 
-ddd
+2. 모형
+    - AE 전략의 전략공간
+    - 반복 확률이 충분하다면 AE전략은 symmetric Nash Equilibrium이 된다.
+
+3. 분석
+    - 역사집합에 근거한 조건부 전략 공간에서 AE 전략의 진화  
+      ALLD - Grim Triger - AE - ALLC - ALLD
+    - Nowak, Sigmund의 확률 조건부 전략과 AE 전략
 
 
 
-eee
+4. 결론
+
+
+## 반복 죄수의 딜레마 게임의 용서와 뉘우침
+
+1. 선행연구
+    - TFT
+    - Generous TFT
+    - Pavlov
+    - Contrite TFT
+  
+ * Wu, Axelrod, (1995), "How to cope with noise in the iterated pisoner's dilemma game"
+
+     모든 noise 수준에서 GTFT와 CTFT는 Pavlov보다 좋은 성과를 낸다.  
+     1% 이하의 noise 환경에서 GTFT가 CTFT 보다조금 더 좋은 성과를 내었지만,  
+     1% 보다 큰 noise 환경에서는 CTFT가 더 높은 점수를 얻었다.  
+     1% noise 수준을 지닌 Ecological Simulation에서 GTFT는 초반에 성공적이었지만 CTFT에 의해 대체됨.  
+     GTFT 전략은 다른 경기자들이 noise-adaptive하지 않을 때 좋은 성과를 내고,   
+     CTFT 전략은 다른 경기자들도 noise-adaptive할 때 좋은 성과를 낸다.  
+     Pavlov는 robust하지 않다.
+     
+
+
+## 제목 2

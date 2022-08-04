@@ -95,6 +95,48 @@
     "href": "docs/presentation/index.html",
     "title": "Presentation",
     "section": "",
-    "text": "ddd\neee"
+    "text": "선행 연구\n\nAxelrod의 Simulation\nnosie 환경에서 TFT, GTFT, Pavlov, CTFT 전략\n관용의 크기와 착취 위험 사이의 상반관계(trade-off)\n뉘우침은 자신의 실수는 교정할 수 있지만, 타인의 실수는 용납하지 않는다.\n\n본 연구에서는 관용과 뉘우침을 결합한 착취회피 전략(aversion to exploitation; AE)을 제시하고자 한다.\n\nAE 전략은 경기자들의 역사 집합에 근거해 과거 사건들의 가중합이 특정한 문턱보다 크다면 협력하는 조건부 전략이다.\nALLD - TFT - GTFT - CTFT\n\n모형\n\nAE 전략의 전략공간\n반복 확률이 충분하다면 AE전략은 symmetric Nash Equilibrium이 된다.\n\n분석\n\n역사집합에 근거한 조건부 전략 공간에서 AE 전략의 진화\nALLD - Grim Triger - AE - ALLC - ALLD\nNowak, Sigmund의 확률 조건부 전략과 AE 전략\n\n결론"
+  },
+  {
+    "objectID": "docs/works/index.html",
+    "href": "docs/works/index.html",
+    "title": "works",
+    "section": "",
+    "text": "선행연구"
+  },
+  {
+    "objectID": "docs/works/index.html#presentation",
+    "href": "docs/works/index.html#presentation",
+    "title": "works",
+    "section": "presentation",
+    "text": "presentation\nddd\neee"
+  },
+  {
+    "objectID": "docs/presentation/index.html#presentation",
+    "href": "docs/presentation/index.html#presentation",
+    "title": "Presentation",
+    "section": "presentation",
+    "text": "presentation\nddd\neee"
+  },
+  {
+    "objectID": "docs/presentation/index.html#제목2",
+    "href": "docs/presentation/index.html#제목2",
+    "title": "Presentation",
+    "section": "제목2",
+    "text": "제목2"
+  },
+  {
+    "objectID": "docs/presentation/index.html#반복-죄수의-딜레마-게임의-용서와-뉘우침",
+    "href": "docs/presentation/index.html#반복-죄수의-딜레마-게임의-용서와-뉘우침",
+    "title": "Presentation",
+    "section": "반복 죄수의 딜레마 게임의 용서와 뉘우침",
+    "text": "반복 죄수의 딜레마 게임의 용서와 뉘우침\n\n선행연구\n\nTFT\nGenerous TFT\nPavlov\nContrite TFT\n\n\n\nWu, Axelrod, (1995), “How to cope with noise in the iterated pisoner’s dilemma game”\n모든 noise 수준에서 GTFT와 CTFT는 Pavlov보다 좋은 성과를 낸다.\n1% 이하의 noise 환경에서 GTFT가 CTFT 보다조금 더 좋은 성과를 내었지만,\n1% 보다 큰 noise 환경에서는 CTFT가 더 높은 점수를 얻었다.\n1% noise 수준을 지닌 Ecological Simulation에서 GTFT는 초반에 성공적이었지만 CTFT에 의해 대체됨.\nGTFT 전략은 다른 경기자들이 noise-adaptive하지 않을 때 좋은 성과를 내고,\nCTFT 전략은 다른 경기자들도 noise-adaptive할 때 좋은 성과를 낸다.\nPavlov는 robust하지 않다."
+  },
+  {
+    "objectID": "docs/presentation/index.html#제목-2",
+    "href": "docs/presentation/index.html#제목-2",
+    "title": "Presentation",
+    "section": "제목 2",
+    "text": "제목 2"
   }
 ]
